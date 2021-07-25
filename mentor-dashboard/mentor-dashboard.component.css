@@ -1,0 +1,85 @@
+.page{
+    width: 100%;
+    background: url('../../assets/questionnaire/whiteWoodenBackground.jpg');
+    height: fit-content;
+    padding-bottom: 5rem;
+}
+h3{
+    font-family: var(--heading-font-family);
+    font-size: 1.5em;
+    font-weight: 500;
+    color:rgba(0, 0, 0, 0.7);
+}
+
+h2{
+    font-family: var(--heading-font-family);
+    font-size: 2em;
+    font-weight: 600;
+    color:#eee;
+    text-shadow: 0 0 10px rgba(255,255,255,.7);
+}
+.profile{
+    width: 50%;
+    max-width: 700px;
+    min-width: 250px;
+}
+.button{
+    font-family: var(--heading-font-family);
+    padding: .5em 2em;
+    margin: 1em 1em 1em 0;
+    min-width: 200px;
+    border: none;
+    border-radius: 5px;
+}
+.section{
+    /* width: 90%;
+    max-width: 800px;
+    min-width: 250px; */
+    padding: 1.5em;
+    border-radius: 10px;
+}
+.appointmentSlots .button{
+    background-color: var(--secondary-color);
+    font-size: 1.2em;
+    font-weight: 600;
+    color: rgba(255,255,255,.7);
+}
+.databox{
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    margin: 5rem 3rem;
+    width: fit-content;
+    width: 90%;
+    max-width: 850px;
+    min-width: 300px;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.bookedAppointmnets button{
+
+    width: 100%;
+}
+
+.dateBox h3{
+    font-size: 3em;
+    margin-bottom: 0;
+}
+.appointmentTime{
+    margin: 0 3em;
+}
+.appointmentTime h3{
+    font-size: 2.5em;
+}
+.customerName{
+    font-size: 2em;
+}
+
+
+.mat-flat-button.mat-accent, .mat-raised-button.mat-accent, .mat-fab.mat-accent, .mat-mini-fab.mat-accent{
+   color: var(--primary-color);
+    font-weight: 1000;
+    background-color: rgba(255,255,255,.7);
+}
