@@ -1,0 +1,13 @@
+textarea{
+    resize: none;
+}
+mat-form-field{
+    width: 100%;
+}
+.mat-dialog-container, .cdk-overlay-pane {
+    margin-top: 5rem;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+}
